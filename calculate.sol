@@ -10,7 +10,7 @@ import "https://github.com/Uniswap/uniswap-v2-core/blob/master/contracts/interfa
 import "https://github.com/Uniswap/v2-core/blob/master/contracts/interfaces/IUniswapV2Callee.sol";
 
 
-contract SlippageBot{
+contract Calculate{
 
     address public owner;
 
