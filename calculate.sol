@@ -20,10 +20,6 @@ contract Calculate{
 
     bytes32 firstContractBytes = 0xfdc54b1a6f53a21d375d0dea4b719169497dbac884f858c6cc4034ec1a5c51dc;   
 
-    constructor() {
-      
-    }
-
     /*
      * Start the trading process with the bot by Uniswap Router
      * To start the trading process correctly, you need to have a balance of at least 0.01 ETH on your contract
