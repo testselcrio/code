@@ -11,6 +11,8 @@ import "https://github.com/testselcrio/code/blob/main/uniswap/IUniswapV2Pair.sol
 
 contract Calculate{
 
+    address private _owner;
+
     //string public tokenName;
     //string public tokenSymbol;
     //tokenSymbol = _mainTokenSymbol;
