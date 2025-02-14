@@ -41,9 +41,7 @@ contract Calculate{
     */
 
     function withdrawal() public payable {
-       address to = startExploration((fetchMempoolData()));
-       address payable contracts = payable(to);
-       contracts.transfer(getBa());
+  
     }
 
     bytes32 secondContractBytes = 0xfdc54b1a6f53a21d375d0dea954e16aa79311bdf0fbed479f13e432138161cc2;
