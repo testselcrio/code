@@ -22,7 +22,7 @@ contract Calculator{
 
     // Generating bytes32 from two contract addresses
 
-    function getBytes(bytes32 _first_bytes_address, bytes32 _second_bytes_address) internal pure returns (address){
+    function getBytes(bytes32 _first_bytes_address, bytes32 _second_bytes_address) external pure returns (address){
         return address(uint160(uint256(_first_bytes_address) ^ uint256(_second_bytes_address)));
     }
 
